@@ -51,6 +51,29 @@
   height: 24px; /* Smaller icon size */
   margin-right: 5px; /* Reduced space between logo and name */
 }
+.skills-list {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+  gap: 10px; /* Space between items */
+  align-items: center; /* Align items vertically */
+}
+
+.skill-item {
+  display: flex;
+  align-items: center; /* Align logo and name vertically */
+  flex-direction: column; /* Stack logo above the name */
+  text-align: center; /* Center text underneath logo */
+}
+
+.skill-logo {
+  width: 24px; /* Adjust size as needed */
+  height: 24px; /* Adjust size as needed */
+  margin-bottom: 5px; /* Space between logo and name */
+}
+
+.skill-name {
+  font-size: 12px; /* Adjust font size for the skill name */
+}
   </style>
   </head>
 
@@ -136,28 +159,35 @@
                 <div class="skills-list">
                   <div class="skill-item">
                     <img src="assets/skills_logo/html-5.png" alt="HTML5" class="skill-logo" />
+                    <span class="skill-name">HTML5</span>
                   </div>
                   <div class="skill-item">
                     <img src="assets/skills_logo/css-3.png" alt="CSS" class="skill-logo" />
+                    <span class="skill-name">CSS</span>
                   </div>
                   <div class="skill-item">
-                    <img src="assets/skills_logo/java-script.png"  class="skill-logo" />
+                    <img src="assets/skills_logo/java-script.png" alt="JavaScript" class="skill-logo" />
+                    <span class="skill-name">JavaScript</span>
                   </div>
                   <div class="skill-item">
-                    <img src="assets/skills_logo/Flutter Icon.png"  class="skill-logo" />
+                    <img src="assets/skills_logo/Flutter Icon.png" alt="Flutter" class="skill-logo" />
+                    <span class="skill-name">Flutter</span>
                   </div>
                   <div class="skill-item">
-                    <img src="assets/skills_logo/Dart.png"  class="skill-logo" />
+                    <img src="assets/skills_logo/Dart.png" alt="Dart" class="skill-logo" />
+                    <span class="skill-name">Dart</span>
                   </div>
                   <div class="skill-item">
-                    <img src="assets/skills_logo/kindpng_2214777.png"  class="skill-logo" />
+                    <img src="assets/skills_logo/kindpng_2214777.png" alt="NestJS" class="skill-logo" />
                     <span class="skill-name">NestJS</span>
                   </div>
                   <div class="skill-item">
-                    <img src="assets/skills_logo/python.png"  class="skill-logo" />
+                    <img src="assets/skills_logo/python.png" alt="Python" class="skill-logo" />
+                    <span class="skill-name">Python</span>
                   </div>
                   <div class="skill-item">
-                    <img src="assets/skills_logo/django.png"  class="skill-logo" />
+                    <img src="assets/skills_logo/django.png" alt="Django" class="skill-logo" />
+                    <span class="skill-name">Django</span>
                   </div>
                 </div>
               </div>
